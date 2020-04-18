@@ -1,0 +1,12 @@
+[Desktop Entry]
+Categories=Development;Office;
+Comment=Quickly and easily develop desktop, mobile, and web applications with Java, JavaScript, HTML5, PHP, C/C++ and more. 
+Exec=AppRun %U
+Icon=icon
+Name=NetBeans
+StartupNotify=true
+StartupWMClass=NetBeans
+Terminal=false
+Type=Application
+X-Deepin-Vendor=user-custom
+X-MultipleArgs=false
