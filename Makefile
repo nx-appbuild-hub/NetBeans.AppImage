@@ -1,4 +1,4 @@
-SOURCE="http://mirror.softaculous.com/apache/netbeans/netbeans/11.2/netbeans-11.2-bin.zip"
+SOURCE="http://mirror.softaculous.com/apache/netbeans/netbeans/11.3/netbeans-11.3-bin.zip"
 DESTINATION="build.zip"
 OUTPUT="NetBeans.AppImage"
 
