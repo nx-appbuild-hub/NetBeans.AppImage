@@ -19,7 +19,7 @@ all: clean
 	wget --output-document=$(PWD)/build/build.rpm --continue https://forensics.cert.org/centos/cert/8/x86_64/jdk-12.0.2_linux-x64_bin.rpm
 	cd $(PWD)/build && rpm2cpio build.rpm | cpio -idmv
 
-	wget --output-document=$(PWD)/build/build.zip http://mirror.softaculous.com/apache/netbeans/netbeans/12.2/netbeans-12.2-bin.zip
+	wget --output-document=$(PWD)/build/build.zip http://mirror.softaculous.com/apache/netbeans/netbeans/12.3/netbeans-12.3-bin.zip
 	unzip $(PWD)/build/build.zip -d $(PWD)/build
 
 	cp --recursive --force $(PWD)/build/usr/java/jdk-12.0.2/* 	$(PWD)/build/Boilerplate.AppDir/jre
